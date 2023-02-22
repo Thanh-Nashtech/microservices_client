@@ -1,7 +1,8 @@
 import axios from "axios";
+import { SERVER_URL } from "../../config/app.config";
 export default function () {
   const instance = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: SERVER_URL,
     headers: {
       Authorization: "Bearer " + localStorage.getItem("token"),
     }
