@@ -73,7 +73,7 @@ export const IndexPage = () => {
         </Grid>
       </Grid>
       <Box>
-        Login as{" "}
+        Login as{"  "}
         {loginedUser
           ? `${loginedUser.firstName} ${loginedUser.lastName}`
           : "Unauthorized"}
